@@ -4,7 +4,7 @@
 
 `git clone https://github.com/ingravido/code-test.git`
 
-`cd code-test`
+`cd code-test/`
 
 `cd api-server/`
 
@@ -39,43 +39,45 @@ Run the server with:
 
 `npm start &`
 
-Check for errors, in that case, check the TROUBLESHOOTING section. And
-run the client. Server is fully tested with node v6.9.4
+Check for errors, in that case, check the TROUBLESHOOTING section. 
+Once server is up, run the client aplication. Server is fully tested with node v6.9.4
 
 ### RUNNING CLIENT APP
 
 Expose client-app/ root path with a webserver and take index.html as
-entry point. For example with php's built in internal server. Inside
+entry point. For simplicity, php's built in internal server can be used. Inside
 project'sroot:
 
 `cd client-app/`
 
 `php -S 0.0.0.0:9000`
 
-Open brower and go to http://localhost:9000
+Open a brower and go to http://localhost:9000
 
 Client application can also be executed opening index.html directly throught
-file:/// protocol. Warning: Despite of it's pure javascript some assets
+file:/// protocol. Warning: Despite of it's pure javascript client code, some assets
 routes could no load due a different uri handle.
 
 ### APLICATION CLIENT BUILD INSTRUCTIONS
 
 Inside client-app/ directory do:
 
-`npm install && webpack`
+`npm install`
+
+and then:
+
+`webpack`
 
 With this, we should ship a fresh dist/bundle.js taking now new
-configuration values from client-app/src/config/config.js. NOTE:
-Webpack's config file is only fully warrantied to work with Webpack2
-
-
+configuration values from client-app/src/config/config.js. 
+NOTE: Webpack config file is only fully warrantied to work with Webpack2
 
 ### CONVENTIONS
 
 1. Button's name is inferred from file name.
 2. JSON file data schema format is deduced from parent folder of json
    file
-3. Parent folder on json files establish format of json files inside folder.
+3. Parent folder of json files establish schema json format of files inside that folder.
 4. We assume all of ours third party content renders uses this JSON
    normalization schema as input:
 
