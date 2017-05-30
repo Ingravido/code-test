@@ -83,28 +83,30 @@ NOTE: Webpack config file is only fully warrantied to work with Webpack2
 
 
         {
-            items: [
+          items: [
+            {
               order: 0,
               title: 'Lorem Ipsum'
               contents: [ //Posible contents type
-              {
-                type: url,
-                data: 'http://games.playtech.com/evil-and-rage',
-              },
-              {
-                type: 'text',
-                data: 'Description....',
-              },
-              {
-                type: 'img',
-                data: 'http://path/to/image.png',
-              },
-              {
-                type: 'date',
-                data: '2016-11-26',
-              },
-            ]
-          ]...(more items in file)
+                {
+                  type: url,
+                  data: 'http://games.playtech.com/evil-and-rage',
+                },
+                {
+                  type: 'text',
+                  data: 'Description....',
+                },
+                {
+                  type: 'img',
+                  data: 'http://path/to/image.png',
+                },
+                {
+                  type: 'date',
+                  data: '2016-11-26',
+                }
+              ]
+            ]...(more items in file)
+          }
         }
 
 
