@@ -1,0 +1,22 @@
+{
+  "name": "gdk-code-test",
+  "version": "1.0.0",
+  "description": "Code test for Playtech Innovation Labs - Server part",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config server.js"
+  },
+  "author": "Javier del Saz",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "fs-extra": "^3.0.1",
+    "socket.io": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0"
+  }
+}

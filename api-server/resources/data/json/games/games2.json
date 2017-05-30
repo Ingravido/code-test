@@ -1,0 +1,32 @@
+{
+	"Evil and Rage 2": {
+		"img": "https://openclipart.org/image/128px/svg_to_png/12558/nicubunu-Game-baddie-Devil.png",
+		"url": "http://games.playtech.com/evil-and-rage",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"publishDate": "2016-11-26"
+	},
+	"Lost Legacy 2": {
+		"img": "https://openclipart.org/image/128px/svg_to_png/12554/nicubunu-Game-baddie-Cowboy.png",
+		"url": "http://games.playtech.com/lost-legacy",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"publishDate": "2016-11-21"
+	},
+	"Dragonblade 2": {
+		"img": "https://openclipart.org/image/128px/svg_to_png/12570/nicubunu-Game-baddie-Pirate.png",
+		"url": "http://games.playtech.com/dragonblade",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"publishDate": "2016-11-26"
+	},
+	"Cyberspace 2": {
+		"img": "https://openclipart.org/image/128px/svg_to_png/12544/nicubunu-Game-baddie-Borg.png",
+		"url": "http://games.playtech.com/cyberspace",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"publishDate": "2016-11-27"
+	},
+	"Galaxy Survival 2": {
+		"img": "https://openclipart.org/image/128px/svg_to_png/12548/nicubunu-Game-baddie-Camouflage.png",
+		"url": "http://games.playtech.com/galaxy-survival",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		"publishDate": "2016-11-23"
+	}
+}

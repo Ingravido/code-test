@@ -1,0 +1,53 @@
+/* Mobile first */
+
+body {
+    font-family: Helvetica, Arial;
+    color: #444444;
+}
+
+.button-bar {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.button {
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    margin: auto;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    width: 156px;
+}
+
+.button:hover {
+    background-color: steelblue;
+    color: aliceblue;
+}
+
+#buttons-container{
+    margin-top: 60px;
+}
+
+.no-json {
+    margin: auto;
+    font-size: 60px;
+    color: lightgray;
+    font-weight: bolder;
+}
+
+/* Big screens */
+@media only screen and (min-width : 500px) {
+    .button-bar {
+        flex-direction: row;
+    }
+
+    #buttons-container {
+        margin-top: 100px;
+    }
+}

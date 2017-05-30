@@ -1,0 +1,76 @@
+/* Mobile first */
+
+.icon-date {
+    background-image: url('~/src/vendor/thirdpartyrenderer/assets/img/date.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    width: 20px;
+}
+
+.icon-link {
+    background-image: url('~/src/vendor/thirdpartyrenderer/assets/img/link.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    width: 26px;
+}
+
+.link-content {
+    word-wrap: break-word;
+}
+
+.date-content {
+    display: flex;
+}
+
+.link-content {
+    display: flex;
+}
+
+.date {
+    margin-left: 6px;
+}
+
+.link {
+    margin-left: 6px;
+    word-break: break-all;
+    font-size: 14px;
+}
+
+.content {
+    padding: 2px;
+}
+
+.elements-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.element-container {
+    width: 300px;
+    padding: 6px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+#renderer-container{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 48px;
+}
+
+/* Big screens */
+@media only screen and (min-width : 500px) {
+    .elements-container {
+        flex-direction: row;
+        justify-content: flex-start
+    }
+
+    #buttons-container {
+        /*margin-top: 100px;*/
+    }
+}

@@ -1,0 +1,22 @@
+{
+	"services": [
+		"Social Gaming",
+		"Casino",
+		"Sportsbook"
+	],
+	"servicesUrl": [
+		"https://www.playtech.com/products/social_gaming",
+		"https://www.playtech.com/products/casino",
+		"https://www.playtech.com/products/sportsbook"
+	],
+	"servicesDescription": [
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. (Social Gaming)",
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. (Casino)",
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. (Sportsbook)"
+	],
+	"servicesOrder": [
+		3,
+		1,
+		2
+	]
+}
