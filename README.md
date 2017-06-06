@@ -105,8 +105,8 @@ NOTE: Webpack config file is only fully warrantied to work with Webpack2
                   data: '2016-11-26',
                 }
               ]
-            ]...(more items in file)
-          }
+            }...(more items in file)
+          ]
         }
 
 
