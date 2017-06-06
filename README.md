@@ -1,4 +1,4 @@
-# Playtech Innovation Labs Code Test
+# Innovation Labs Code Test
 
 ### INSTALLATION
 
@@ -90,7 +90,7 @@ NOTE: Webpack config file is only fully warrantied to work with Webpack2
               contents: [ //Posible contents type
                 {
                   type: url,
-                  data: 'http://games.playtech.com/evil-and-rage',
+                  data: 'http://url.com/evil-and-rage',
                 },
                 {
                   type: 'text',
